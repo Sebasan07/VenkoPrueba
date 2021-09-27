@@ -11,6 +11,22 @@ public class Persona {
 	String tipoDocumento;
 	String numeroDocumento;
 	Date fechaExpedicionDoc;
+	
+	public Persona() {
+		
+	}
+	
+	public Persona(String primerNombre, String segundoNombre, String primerApellido, String segundoApellido,
+			String tipoDocumento, String numeroDocumento, Date fechaExpedicionDoc) {
+		super();
+		this.primerNombre = primerNombre;
+		this.segundoNombre = segundoNombre;
+		this.primerApellido = primerApellido;
+		this.segundoApellido = segundoApellido;
+		this.tipoDocumento = tipoDocumento;
+		this.numeroDocumento = numeroDocumento;
+		this.fechaExpedicionDoc = fechaExpedicionDoc;
+	}
 	public String getPrimerNombre() {
 		return primerNombre;
 	}
