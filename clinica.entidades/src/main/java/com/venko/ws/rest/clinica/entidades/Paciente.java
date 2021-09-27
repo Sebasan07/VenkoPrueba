@@ -2,7 +2,9 @@ package com.venko.ws.rest.clinica.entidades;
 
 public class Paciente extends Persona{
 
-	public Paciente() {
-		super();
+	public Paciente(String primerNombre, String segundoNombre, String primerApellido, String segundoApellido,
+			String tipoDocumento, String numeroDocumento, Date fechaExpedicionDoc) {
+		super(primerNombre, segundoNombre, primerApellido, segundoApellido,
+				tipoDocumento, numeroDocumento,fechaExpedicionDoc);
 	}
 }
